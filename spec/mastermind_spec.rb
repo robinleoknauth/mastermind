@@ -83,6 +83,8 @@ describe Code do
 
   describe "#near_matches" do
     it "counts near matches" do
+      # p code1
+      # p code2
       expect(code1.near_matches(code2)).to eq(2)
     end
 
